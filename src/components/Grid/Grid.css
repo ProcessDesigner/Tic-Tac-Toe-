@@ -1,0 +1,16 @@
+.grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adds space between grid items */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px; /* Ensure the grid has a maximum width */
+    margin: auto; /* Center the grid container */
+}
+
+.turn-highlight{
+    color: white;
+
+}
